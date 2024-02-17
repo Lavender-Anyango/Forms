@@ -3,17 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables</title>
     <style>
-        #table{
-            border: 1px solid black;
-            border-collapse: collapse;
+        body{
+            text-align: center;
+            font-size: larger;
         }
+        table, th, td{
+            border: 2px solid blue;
+            border-collapse: collapse;
+           
+        }
+        th{
+            color: royalblue;
+            height:  70px;
+        }
+        table{
+            text-align: center;
+            margin-left: 20%;
+            width: 50%;
+        }
+        td{
+            height: 40px;
+        }
+        tr{
+            color: black;
+        }
+        a{
+            color: black;
+        }
+        button{
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            width: 600px;
+            color: white;
+            background-color: royalblue;
+            font-size: large;
+            text-align: center;
+        }
+        .link a{
+            text-decoration: none;
+            color: black;
+        }
+        
     </style>
 </head>
 <body>
     <h1>Students Data</h1>
-    <table>
+    <table id="table">
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
@@ -22,7 +60,7 @@
         <tr>
             <td>Nakato</td>
             <td>Zainab</td>
-            <td>nakato@gmail.com</td>
+            <td id>nakato@gmail.com</td>
         </tr>
         <tr>
             <td>Tevin </td>
@@ -70,5 +108,13 @@
             <td>kim@gmail.com</td>
         </tr>
     </table>
+    <br>
+    <br>
+    <br>
+    <div class="link">
+        <footer>
+            <button> <a href="./signin.html"><b>Go back to Sign in Page</b></a></button>
+        </footer>
+    </div>
 </body>
 </html>

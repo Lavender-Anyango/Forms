@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SignUp Form</title>
     <style>
         #form{
             border: solid 1px;
@@ -18,23 +18,33 @@
             border: solid 1px;
         }
         button{
-            padding: 6px 12px;
+            padding: 12px 16px;
             border: none;
             border-radius: 5px;
-            width: 300px;
+            width: 765px;
             color: white;
             background-color: black;
 
         }
+        
+        
         .logo{
             width: 50px;
             padding: 12px 16px;
         }
+        .link a{
+            text-decoration: none;
+            color: black;
+        }
+        .footer{
+            text-align: center;
+        }
+        
     </style>
 </head>
 <body>
     <form id="form">
-      <p>Already have an account? <b>Sign in</b></p>
+      <div class="link">Already have an account? <b><a href="./signin.html">Sign in</a></b></div>
       <h2>Sign Up</h2>
       <br>
       <label for="fullname">Name: </label>
@@ -60,10 +70,9 @@
       <button>Sign Up</button>
       <br>
       <br>
-      <p>Or Sign Up With</p>
-      <br>
-      <br>
-      <p><span><img src="IMAGES/googlelogo.png" alt="googlelogo" class="logo"></span> <span><img src="IMAGES/facebooklogo.png" alt="facebooklogo" class="logo"></span></p>
-    </form>
+      <div class="footer">
+        <p>Or Sign Up With</p>
+        <p><span><img src="IMAGES/googlelogo.png" alt="googlelogo" class="logo"></span> <span><img src="IMAGES/facebooklogo.png" alt="facebooklogo" class="logo"></span></p>
+    </div>
 </body>
 </html>
